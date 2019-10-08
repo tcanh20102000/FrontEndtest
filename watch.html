@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:center"> 
+  <video id="video1" width="420" controls>
+    <source src="Core-DeathbyAumor(credit).ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+ <br><br>
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.youtube.com/results?search_query=mus_cast_5+undertale
+" target="_blank">Undertale Soundtrack</a>.</p>
+
+<div style="text-align:center"> 
+  <video id="video2" width="420" controls>
+    <source src="a1.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <br><br>
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video2"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+</body> 
+</html>
